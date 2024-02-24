@@ -13,7 +13,7 @@ COPY . .
 RUN cargo build --release
 
 # Expose port 8080 (optional, doesn't actually publish the port)
-EXPOSE 8080
+EXPOSE 8081
 
 # Change the user to a non-root user
 USER 1001:1001
